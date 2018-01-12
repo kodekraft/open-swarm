@@ -1,0 +1,30 @@
+KodeKraft\OpenSwarm\Entities\OpenAPI\v2\Response:
+  properties:
+    description:
+      serialized_name: description
+      access_type: public_method
+      type: string
+      accessor:
+        setter: setDescription
+        getter: getDescription
+    schema:
+      serialized_name: schema
+      access_type: public_method
+      type: KodeKraft\OpenSwarm\Entities\OpenAPI\v2\Schema
+      accessor:
+        setter: setSchema
+        getter: getSchema
+    headers:
+      serialized_name: headers
+      access_type: public_method
+      type: array<string, KodeKraft\OpenSwarm\Entities\OpenAPI\v2\Header>
+      accessor:
+        setter: setHeaders
+        getter: getHeaders
+    examples:
+      serialized_name: examples
+      access_type: public_method
+      type: array<string, array<string, string>>
+      accessor:
+        setter: setExamples
+        getter: getExamples

@@ -1,0 +1,58 @@
+KodeKraft\OpenSwarm\Entities\OpenAPI\v2\SecurityScheme:
+  properties:
+    type:
+      serialized_name: type
+      access_type: public_method
+      type: string
+      accessor:
+        setter: setType
+        getter: getType
+    description:
+      serialized_name: description
+      access_type: public_method
+      type: string
+      accessor:
+        setter: setDescription
+        getter: getDescription
+    name:
+      serialized_name: name
+      access_type: public_method
+      type: string
+      accessor:
+        setter: setName
+        getter: getName
+    in:
+      serialized_name: in
+      access_type: public_method
+      type: string
+      accessor:
+        setter: setIn
+        getter: getIn
+    flow:
+      serialized_name: flow
+      access_type: public_method
+      type: string
+      accessor:
+        setter: setFlow
+        getter: getFlow
+    authorizationUrl:
+      serialized_name: authorizationUrl
+      access_type: public_method
+      type: string
+      accessor:
+        setter: setAuthorizationUrl
+        getter: getAuthorizationUrl
+    tokenUrl:
+      serialized_name: tokenUrl
+      access_type: public_method
+      type: string
+      accessor:
+        setter: setTokenUrl
+        getter: getTokenUrl
+    scopes:
+      serialized_name: scopes
+      access_type: public_method
+      type: array
+      accessor:
+        setter: setScopes
+        getter: getScopes

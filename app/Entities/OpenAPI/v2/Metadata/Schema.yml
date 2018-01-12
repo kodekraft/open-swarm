@@ -1,0 +1,149 @@
+KodeKraft\OpenSwarm\Entities\OpenAPI\v2\Schema:
+  properties:
+    ref:
+      serialized_name: $ref
+      access_type: public_method
+      type: string
+      accessor:
+        setter: setRef
+        getter: getRef
+    format:
+      serialized_name: format
+      access_type: public_method
+      type: string
+      accessor:
+        setter: setFormat
+        getter: getFormat
+    title:
+      serialized_name: title
+      access_type: public_method
+      type: string
+      accessor:
+        setter: setTitle
+        getter: getTitle
+    description:
+      serialized_name: description
+      access_type: public_method
+      type: string
+      accessor:
+        setter: setDescription
+        getter: getDescription
+    default:
+      serialized_name: default
+      access_type: public_method
+      type: string
+      accessor:
+        setter: setDefault
+        getter: getDefault
+    multipleOf:
+      serialized_name: multipleOf
+      access_type: public_method
+      type: integer
+      accessor:
+        setter: setMultipleOf
+        getter: getMultipleOf
+    maximum:
+      serialized_name: maximum
+      access_type: public_method
+      type: integer
+      accessor:
+        setter: setMaximum
+        getter: getMaximum
+    exclusiveMaximum:
+      serialized_name: exclusiveMaximum
+      access_type: public_method
+      type: boolean
+      accessor:
+        setter: setExclusiveMaximum
+        getter: isExclusiveMaximum
+    minimum:
+      serialized_name: minimum
+      access_type: public_method
+      type: integer
+      accessor:
+        setter: setMinimum
+        getter: getMinimum
+    exclusiveMinimum:
+      serialized_name: exclusiveMinimum
+      access_type: public_method
+      type: boolean
+      accessor:
+        setter: setExclusiveMinimum
+        getter: isExclusiveMinimum
+    maxLength:
+      serialized_name: maxLength
+      access_type: public_method
+      type: integer
+      accessor:
+        setter: setMaxLength
+        getter: getMaxLength
+    minLength:
+      serialized_name: minLength
+      access_type: public_method
+      type: integer
+      accessor:
+        setter: setMinLength
+        getter: getMinLength
+    pattern:
+      serialized_name: pattern
+      access_type: public_method
+      type: string
+      accessor:
+        setter: setPattern
+        getter: getPattern
+    maxItems:
+      serialized_name: maxItems
+      access_type: public_method
+      type: integer
+      accessor:
+        setter: setMaxItems
+        getter: getMaxItems
+    minItems:
+      serialized_name: minItems
+      access_type: public_method
+      type: integer
+      accessor:
+        setter: setMinItems
+        getter: getMinItems
+    uniqueItems:
+      serialized_name: uniqueItems
+      access_type: public_method
+      type: boolean
+      accessor:
+        setter: setUniqueItems
+        getter: isUniqueItems
+    maxProperties:
+      serialized_name: maxProperties
+      access_type: public_method
+      type: integer
+      accessor:
+        setter: setMaxProperties
+        getter: getMaxProperties
+    minProperties:
+      serialized_name: minProperties
+      access_type: public_method
+      type: integer
+      accessor:
+        setter: setMinProperties
+        getter: getMinProperties
+    required:
+      serialized_name: required
+      access_type: public_method
+      type: array<string>
+      accessor:
+        setter: setRequired
+        getter: getRequired
+    enum:
+      serialized_name: enum
+      access_type: public_method
+      type: array<string>
+      accessor:
+        setter: setEnum
+        getter: getEnum
+    type:
+      serialized_name: type
+      access_type: public_method
+      type: string
+      accessor:
+        setter: setType
+        getter: getType

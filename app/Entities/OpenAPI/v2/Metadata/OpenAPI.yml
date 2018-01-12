@@ -1,0 +1,72 @@
+KodeKraft\OpenSwarm\Entities\OpenAPI\v2\OpenAPI:
+  properties:
+    swagger:
+      serialized_name: swagger
+      access_type: public_method
+      type: string
+      accessor:
+        setter: setSwagger
+        getter: getSwagger
+    info:
+      serialized_name: info
+      access_type: public_method
+      type: KodeKraft\OpenSwarm\Entities\OpenAPI\v2\Info
+      accessor:
+        setter: setInfo
+        getter: getInfo
+    host:
+      serialized_name: host
+      access_type: public_method
+      type: string
+      accessor:
+        setter: setHost
+        getter: getHost
+    basePath:
+      serialized_name: basePath
+      access_type: public_method
+      type: string
+      accessor:
+        setter: setBasePath
+        getter: getBasePath
+    tags:
+      serialized_name: tags
+      access_type: public_method
+      type: array<KodeKraft\OpenSwarm\Entities\OpenAPI\v2\Tags>
+      accessor:
+        setter: setTags
+        getter: getTags
+    schemes:
+      serialized_name: schemes
+      access_type: public_method
+      type: array<string>
+      accessor:
+        setter: setSchemes
+        getter: getSchemes
+    paths:
+      serialized_name: paths
+      access_type: public_method
+      type: array<string, array<string, KodeKraft\OpenSwarm\Entities\OpenAPI\v2\Operation>>
+      accessor:
+        setter: setPaths
+        getter: getPaths
+    securityDefinitions:
+      serialized_name: securityDefinitions
+      access_type: public_method
+      type: array<string, KodeKraft\OpenSwarm\Entities\OpenAPI\v2\SecurityScheme>
+      accessor:
+        setter: setSecurityDefinitions
+        getter: getSecurityDefinitions
+    definitions:
+      serialized_name: definitions
+      access_type: public_method
+      type: array<string, KodeKraft\OpenSwarm\Entities\OpenAPI\v2\Definition>
+      accessor:
+        setter: setDefinitions
+        getter: getDefinitions
+    externalDocs:
+      serialized_name: externalDocs
+      access_type: public_method
+      type: KodeKraft\OpenSwarm\Entities\OpenAPI\v2\ExternalDocs
+      accessor:
+        setter: setExternalDocs
+        getter: getExternalDocs

@@ -1,0 +1,37 @@
+KodeKraft\OpenSwarm\Entities\OpenAPI\v2\Parameter:
+  properties:
+    name:
+      serialized_name: name
+      access_type: public_method
+      type: string
+      accessor:
+        setter: setName
+        getter: getName
+    in:
+      serialized_name: in
+      access_type: public_method
+      type: string
+      accessor:
+        setter: setIn
+        getter: getIn
+    description:
+      serialized_name: description
+      access_type: public_method
+      type: string
+      accessor:
+        setter: setDescription
+        getter: getDescription
+    required:
+      serialized_name: required
+      access_type: public_method
+      type: boolean
+      accessor:
+        setter: setRequired
+        getter: isRequired
+    schema:
+      serialized_name: schema
+      access_type: public_method
+      type: KodeKraft\OpenSwarm\Entities\OpenAPI\v2\Schema
+      accessor:
+        setter: setSchema
+        getter: getSchema

@@ -1,0 +1,23 @@
+KodeKraft\OpenSwarm\Entities\OpenAPI\v2\Contact:
+  properties:
+    name:
+      serialized_name: name
+      access_type: public_method
+      type: string
+      accessor:
+        setter: setName
+        getter: getName
+    url:
+      serialized_name: url
+      access_type: public_method
+      type: string
+      accessor:
+        setter: setUrl
+        getter: getUrl
+    email:
+      serialized_name: email
+      access_type: public_method
+      type: string
+      accessor:
+        setter: setEmail
+        getter: getEmail

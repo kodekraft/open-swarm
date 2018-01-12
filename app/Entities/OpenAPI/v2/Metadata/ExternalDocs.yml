@@ -1,0 +1,16 @@
+KodeKraft\OpenSwarm\Entities\OpenAPI\v2\ExternalDocs:
+  properties:
+    description:
+      serialized_name: description
+      access_type: public_method
+      type: string
+      accessor:
+        setter: setDescription
+        getter: getDescription
+    url:
+      serialized_name: url
+      access_type: public_method
+      type: string
+      accessor:
+        setter: setUrl
+        getter: getUrl

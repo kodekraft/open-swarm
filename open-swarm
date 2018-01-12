@@ -1,0 +1,26 @@
+#!/usr/bin/env php
+<?php
+
+set_time_limit(0);
+
+use Symfony\Component\Console\Application;
+use KodeKraft\OpenSwarm\Commands\LoadCommand;
+
+// installed via composer?
+if (file_exists($file = __DIR__ . '/../../autoload.php')) {
+    require_once $file;
+} else {
+    require_once __DIR__ . '/vendor/autoload.php';
+}
+
+$app = new Application();
+
+// installed via composer?
+if (file_exists(__DIR__ . '/vendor')) {
+    $base = __DIR__;
+} else {
+    $base = __DIR__ . '/../../../';
+}
+
+$app->add(new LoadCommand($base));
+$app->run();

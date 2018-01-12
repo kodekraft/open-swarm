@@ -1,0 +1,23 @@
+KodeKraft\OpenSwarm\Entities\OpenAPI\v2\Tags:
+  properties:
+    name:
+      serialized_name: name
+      access_type: public_method
+      type: string
+      accessor:
+        setter: setName
+        getter: getName
+    description:
+      serialized_name: description
+      access_type: public_method
+      type: string
+      accessor:
+        setter: setDescription
+        getter: getDescription
+    externalDocs:
+      serialized_name: externalDocs
+      access_type: public_method
+      type: KodeKraft\OpenSwarm\Entities\OpenAPI\v2\ExternalDocs
+      accessor:
+        setter: setExternalDocs
+        getter: getExternalDocs

@@ -1,0 +1,86 @@
+KodeKraft\OpenSwarm\Entities\OpenAPI\v2\Operation:
+  properties:
+    tags:
+      serialized_name: tags
+      access_type: public_method
+      type: array<string>
+      accessor:
+        setter: setTags
+        getter: getTags
+    summary:
+      serialized_name: summary
+      access_type: public_method
+      type: string
+      accessor:
+        setter: setSummary
+        getter: getSummary
+    description:
+      serialized_name: description
+      access_type: public_method
+      type: string
+      accessor:
+        setter: setDescription
+        getter: getDescription
+    externalDocs:
+      serialized_name: externalDocs
+      access_type: public_method
+      type: KodeKraft\OpenSwarm\Entities\OpenAPI\v2\ExternalDocs
+      accessor:
+        setter: setExternalDocs
+        getter: getExternalDocs
+    operationId:
+      serialized_name: operationId
+      access_type: public_method
+      type: string
+      accessor:
+        setter: setOperationId
+        getter: getOperationId
+    consumes:
+      serialized_name: consumes
+      access_type: public_method
+      type: array<string>
+      accessor:
+        setter: setConsumes
+        getter: getConsumes
+    produces:
+      serialized_name: produces
+      access_type: public_method
+      type: array<string>
+      accessor:
+        setter: setProduces
+        getter: getProduces
+    parameters:
+      serialized_name: parameters
+      access_type: public_method
+      type: array<KodeKraft\OpenSwarm\Entities\OpenAPI\v2\Parameter>
+      accessor:
+        setter: setParameters
+        getter: getParameters
+    responses:
+      serialized_name: responses
+      access_type: public_method
+      type: array<integer, KodeKraft\OpenSwarm\Entities\OpenAPI\v2\Response>
+      accessor:
+        setter: setResponses
+        getter: getResponses
+    schemes:
+      serialized_name: schemes
+      access_type: public_method
+      type: array<string>
+      accessor:
+        setter: setSchemes
+        getter: getSchemes
+    deprecated:
+      serialized_name: deprecated
+      access_type: public_method
+      type: boolean
+      accessor:
+        setter: setDeprecated
+        getter: isDeprecated
+    security:
+      serialized_name: security
+      access_type: public_method
+      type: array<string, array>
+      accessor:
+        setter: setSecurity
+        getter: getSecurity

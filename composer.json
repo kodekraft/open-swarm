@@ -1,0 +1,44 @@
+{
+  "name": "kodekraft/open-swarm",
+  "description": "OpenSwarm is an HTTP load testing and benchmarking utility.",
+  "type": "project",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Brett Larson"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "guzzlehttp/guzzle": "^6.2",
+    "symfony/console": "^3.3|^4.0",
+    "symfony/stopwatch": "^3.3|^4.0",
+    "league/flysystem": "^1.0",
+    "ramsey/uuid": "^3.7",
+    "jms/serializer": "^1.10",
+    "symfony/yaml": "^3.3|^4.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.7|^6.0",
+    "symfony/framework-bundle": "^3.3|^4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "KodeKraft\\OpenSwarm\\": "app/"
+    },
+    "files": [
+      "helpers.php"
+    ]
+  },
+  "autoload-dev": {
+    "classmap": [
+      "tests"
+    ],
+    "psr-4": {
+      "KodeKraft\\OpenSwarm\\Tests\\": "tests/"
+    }
+  },
+  "bin": [
+    "open-swarm"
+  ]
+}

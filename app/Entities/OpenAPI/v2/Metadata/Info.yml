@@ -1,0 +1,44 @@
+KodeKraft\OpenSwarm\Entities\OpenAPI\v2\Info:
+  properties:
+    description:
+      serialized_name: description
+      access_type: public_method
+      type: string
+      accessor:
+        setter: setDescription
+        getter: getDescription
+    version:
+      serialized_name: version
+      access_type: public_method
+      type: string
+      accessor:
+        setter: setVersion
+        getter: getVersion
+    title:
+      serialized_name: title
+      access_type: public_method
+      type: string
+      accessor:
+        setter: setTitle
+        getter: getTitle
+    termsOfService:
+      serialized_name: termsOfService
+      access_type: public_method
+      type: string
+      accessor:
+        setter: setTermsOfService
+        getter: getTermsOfService
+    contact:
+      serialized_name: KodeKraft\OpenSwarm\Entities\OpenAPI\v2\Contact
+      access_type: public_method
+      type: string
+      accessor:
+        setter: setContact
+        getter: getContact
+    license:
+      serialized_name: license
+      access_type: public_method
+      type: KodeKraft\OpenSwarm\Entities\OpenAPI\v2\License
+      accessor:
+        setter: setLicense
+        getter: getLicense
